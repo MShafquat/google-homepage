@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+}
+
+.main {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-text {
+    width: 60vw;
+    height: 2.5rem;
+    border-radius: 25px;
+    border-color: lightgray;
+    border-width: 1px;
+    margin: 20px 0px;
+}
+
+#search-buttons {
+    text-align: center;
+    padding: 5px;
+}
+
+.btn {
+    padding: 10px 25px;
+    background-color:#f8f9fa;
+    color: #3c4043;
+    border: none;
+    border-radius: 5px;
+}
